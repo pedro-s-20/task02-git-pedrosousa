@@ -51,19 +51,45 @@ __Obs.: ele destaca a branch que estamos.__
 
 Uma questão muito importante que aprendemos foi a questão de nomeação das branches: 
 
-|**docs:** apenas mudanças de documentação;|
+| **docs:** apenas mudanças de documentação; 
 
-|**feat:** uma nova funcionalidade;|
+| **feat:** uma nova funcionalidade; 
 
-|**fix:** a correção de um bug;|
+| **fix:** a correção de um bug; 
 
-|**perf:** mudança de código focada em melhorar performance;|
+| **perf:** mudança de código focada em melhorar performance; 
 
-|**refactor:** mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;|
+| **refactor:** mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;
 
-|**style:** mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc);|
+| **style:** mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc); 
 
-|**test:** adicionar ou corrigir testes.|
+| **test:** adicionar ou corrigir testes.
+
+Também aprendemos sobre o .gitignore, que serve para ignorar arquivos que não serão comitados. Exemplo: 
+
+<img src="imagens-README/img04.png">
+
+Na aula 2 vimos alguns comandos que são iniciais do git, quando se instala:
+
+**__git config --global user.name ‘seu nome’__**
+
+**__git config --global user.email seuemail@example.com__**
+
+Comandos mais utilizados, como 
+
+**__git merge__**, para mesclar trabalhos feitos em uma branch com outra (ou com a main, por exemplo).
+
+Aprendemos sobre o Pull Request.
+
+Aprendi também sobre como trabalhar em equipe (isso já na Task 01), adicionar colaboradores, aprovar PRs, fazer merge etc. 
+
+Vimos também sobre o **Git Flow**, que são processos de criação e utilização de Branches para trabalhos em equipe.
+
+Como na imagem a seguir: 
+
+<img src="imagens-README/img05.png">
+
+Enfim, muito aprendizado bem aproveitado!
 
 
 
