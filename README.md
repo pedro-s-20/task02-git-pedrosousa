@@ -25,28 +25,39 @@ Entrando na questão da utilização prática do Git, trabalhamos Branches, que 
 
 Para criar uma branch:
 
-**__git checkout -b <nome-da-branch>__**
+**- __git checkout -b <nome-da-branch>__**
 
 Para navegar entre branches:
 
-**__git checkout <nome-da-branch>__**
+**- __git checkout <nome-da-branch>__**
 
 Obs.: sempre que se cria uma branch e envia deseja enviar ao repositório remoto, (somente no primeiro push) o git pedirá o comando:  
 
-**__git push --set-upstream origin__**
+**- __git push --set-upstream origin__**
 
 Para saber quais branchs estão no projeto, pode-se usar o comando: 
 
-**__git branch__**
+**- __git branch__**
 
 __Obs.: ele destaca a branch que estamos.__
 
 ### Sobre alguns comandos que aprendemos: 
 
-**__git status__** para ver a situação atual da branch em que estamos.
+**- __git status__** para ver a situação atual da branch em que estamos.
 
-**__git fetch__** que é utilizado para buscar branches e/ou tags com os objetos necessários criados a partir de outro repositório distribuído (e que foi enviado para o remoto). É como buscar atualizações.
+**- __git fetch__** que é utilizado para buscar branches e/ou tags com os objetos necessários criados a partir de outro repositório distribuído (e que foi enviado para o remoto). É como buscar atualizações.
 
-**__git pull__** para aplicar as atualizações do repositório remoto.
+**- __git pull__** para aplicar as atualizações do repositório remoto.
+
+Uma questão muito importante que aprendemos foi a questão de nomeação das branches: 
+
+|**docs:**|apenas mudanças de documentação;|
+|**feat:**|uma nova funcionalidade;|
+|**fix:**|a correção de um bug;|
+|**perf:**|mudança de código focada em melhorar performance;|
+|**refactor:**|mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;|
+|**style:**|mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc);|
+|**test:**|adicionar ou corrigir testes.|
+
 
 
